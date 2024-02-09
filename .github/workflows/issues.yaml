@@ -1,8 +1,9 @@
 name: Issues context
 on: workflow_dispatch
+
 jobs:
   show:
     runs-on: ubuntu-latest
     steps:
       - name: Print issues context
-        run: echo ${{toJSON(issues)}}
+        run: echo "Hello"
