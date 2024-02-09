@@ -1,7 +1,5 @@
 name: Issues context
-on:
-  issues:
-    types: [opened]
+on: issues
 
 jobs:
   show:
