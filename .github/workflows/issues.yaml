@@ -1,9 +1,11 @@
 name: Issues context
-on: issues
+on:
+  issues:
+    types: opened
 
 jobs:
   show:
     runs-on: ubuntu-latest
     steps:
       - name: Print issues context
-        run: echo "Hello"
+        run: echo "${{toJSON(issues)}}"
