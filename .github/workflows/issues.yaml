@@ -1,7 +1,7 @@
 name: Issues context
 on:
   issues:
-    types: opened
+    types: [opened]
 
 jobs:
   show:
