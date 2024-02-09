@@ -1,0 +1,9 @@
+name: Issues context
+on: issues
+
+jobs:
+  show:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print issues context
+        run: echo "Hello"
