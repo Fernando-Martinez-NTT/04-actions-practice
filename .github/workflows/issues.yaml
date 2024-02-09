@@ -1,7 +1,5 @@
 name: Issues context
-on:
-  issues:
-    types: opened
+on: workflow_dispatch
 jobs:
   show:
     runs-on: ubuntu-latest
